@@ -8,6 +8,7 @@
 <script>
     import Conversation from "./Conversation";
     import ContactsList from "./ContactsList";
+
     export default {
         props: {
             user: {
@@ -41,3 +42,9 @@
         components: {ContactsList, Conversation},
     }
 </script>
+
+<style lang="scss" scoped>
+    .chat-app {
+        display: flex;
+    }
+</style>
